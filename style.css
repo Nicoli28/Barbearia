@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    position: fixed; /* Fixa a barra no topo */
+    z-index: 1000; /* Mantém a navbar no topo de outros elementos */
+    width: 100%; /* Ocupa a largura total da tela */
+  }
+  
+  .logo {
+    height: 40px;
+    margin-left: 20px;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+  }
+
+  .location img{
+    margin-right: 15px;
+  }
+  
+  .globe-icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .appointment-btn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right: 30px;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    background-image: url('templates/img\ fundo.jpg'); /* Background image for the intro section */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 20px;
+    height: 450px;
+  }
+  
+  .intro-content h1{
+    margin-top: 100px;
+    font-size: 1.6em;
+    margin: 20px 20px;
+    padding: 0px 0 0 0;
+  }
+
+  .intro-content p {
+    font-size: 1.2em;
+    margin: 10px 20px;
+  }
+
+  .intro-content img{
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f9f9f9;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 1.7em;
+    color: red;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #000;
+  }
+  
+  .hero-btn {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 50px 20px;
+  }
+
+  .about {
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    color: #fff;
+  }
+  
+  .about-content h2 {
+    font-size: 1.7em;
+    color: rgb(255, 0, 0);
+  }
+  
+  .about-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #f0f0f0;
+  }
+
+  .services {
+    background-color: #969696;
+    height: 400px;
+    display: flex;
+  }
+  
+  .services-content h2 {
+    font-size: 1.7em;
+    color: rgb(234, 234, 234);
+    text-align: center;
+  }
+  
+  .services-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #000;
+  }
+
+  .barbers {
+    background-color: #f9f9f9;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .barbers-content h2 {
+    font-size: 1.7em;
+    color: rgb(0, 0, 0);
+  }
+  
+  .barbers-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #000;
+  }
+
+  .contact {
+    background-color: #f9f9f9;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 1.7em;
+    color: rgb(0, 0, 0);
+  }
+  
+  .contact-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #000;
+  }
+  
+  .service-list, .barber-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  

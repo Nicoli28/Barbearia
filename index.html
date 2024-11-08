@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia - Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="#home">
+      <img src="templates/logo.png" alt="Logo da Barbearia" class="logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#barbers">Barbers</a></li>
+        <li><a href="#contact">Contate-nos</a></li>
+      </ul>
+    </nav>
+    <div class="location">
+      <img src="templates/globo icon.png" alt="Globo" class="globe-icon">
+      <span>Santo André, SP</span>
+    </div>
+    <button class="appointment-btn" onclick="scheduleAppointment()">Agendar Horário</button>
+  </header>
+
+  <!-- Intro Section -->
+  <section class="intro-section" id="home">
+    <div class="intro-content">
+      <img src="templates/vini cortes.png" alt="ViniCortes" class="imgvini">
+      <h1>Deixe seu cabelo falar</h1>
+      <p>Nós somos os criadores da nova declaração de moda do seu cabelo.</p>
+      <p>Nós podemos torná-lo um evento especial mais especial com um pouco de trabalho.</p>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="hero" id="intro">
+    <div class="hero-content">
+      <h1>Bem-Vindo à nossa sala de transformação</h1>
+      <p>Relaxe, tenha uma ótima aparência, sinta-se confiante.</p>
+      <button class="hero-btn" onclick="scheduleAppointment()">Agendar Um Horário</button>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+    <h2>Sobre Nós</h2>
+    <p>História da nossa barbearia...</p>
+    <p>Começei a ter interesse em cortar cabelo em 2017, quando meus pais 
+      passaram por uma dificuldade e me lavavam pra cortar cabelo em uma 
+      escola de barbeiros. Desde então começei a juntar dinheiro pra 
+      comprar minhas máquinas e pagar meu curso. Em 2019 conclui meu 
+      curso e começei a cortar cabelo em um cômodo na minha casa, 
+      progredindo muito e em 2022 tive a oportunidade de abrir minha 
+      barbearia aonde é localizada hoje, sempre correndo atrás de melhorias 
+      pra melhor atende-los </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="services-content">
+    <h2>Nossos Serviços</h2>
+    <div class="service-list">
+      <!-- Service items go here -->
+    </div>
+  </div>
+  </section>
+
+  <!-- Barbers Section -->
+  <section id="barbers" class="barbers">
+    <div class="barbers-content">
+    <h2>Conheça a Família</h2>
+    <div class="barber-list">
+      <!-- Barber details go here -->
+    </div>
+  </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-content">
+    <h2>Contate-nos</h2>
+    <p>Santo André/SP - Parque Marajoara<br>Rua Professor Edgard Vieira de Lima, 610</p>
+    <p>Telefone: (11) 98743-3948</p>
+  </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
